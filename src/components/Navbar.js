@@ -4,6 +4,7 @@ import search from "../assets/search.svg"
 import bag from "../assets/bag.svg"
 import "./Navbar.css"
 import {AiOutlineMenu,AiOutlineClose} from "react-icons/ai"
+import Menu from "./Menu";
 
 
 export default function Navbar(){
@@ -15,6 +16,7 @@ export default function Navbar(){
     }
 
     return (
+        <>
         <nav>
             <ul className="nav-list">
                 <div className="nav-brand-toggle">
@@ -29,5 +31,7 @@ export default function Navbar(){
                 </li>
             </ul>
         </nav>
+        {toggled && <Menu/>}
+        </>
     )
 }

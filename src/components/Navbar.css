@@ -1,6 +1,9 @@
 nav{
     height: 70px;
     width: 100%;
+    position:sticky;
+    top: 2px;
+    background-color: white;
 }
 
 .nav-list{
