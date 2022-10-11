@@ -1,10 +1,13 @@
-import logo from './assets/logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-      <img src={logo} alt="Error loading img" />
+        <Navbar/>
+        <Home/>
+     
     </div>
   );
 }

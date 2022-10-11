@@ -1,0 +1,44 @@
+nav{
+    height: 70px;
+    width: 100%;
+}
+
+.nav-list{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-list img{
+    height: 40px;
+    width: 40px;
+}
+
+.nav-brand-toggle{
+    margin-right: auto;
+    margin-left: 15px;
+    display:flex;
+    gap: 10px;
+}
+
+.nav-brand-toggle img{
+    width: 160px;
+    display:flex;
+    align-items: center;
+    
+}
+
+.nav-toggle{
+    width: 50px;
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-brand-toggle svg{
+    align-self: center;
+    font-size: 30px;
+}
