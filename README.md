@@ -1,5 +1,5 @@
 
-# ASKPHILL ASSIGNMENT - RECREATE A MOBILE NAV MENU
+# ASKPHILL assessment - RECREATE MOBILE NAV MENU
 
 -- [LIVE DEMO](https://shile-stocks.netlify.app/)
 
