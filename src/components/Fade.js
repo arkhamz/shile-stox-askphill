@@ -14,7 +14,7 @@ function SpringFade({children, className}){
 
 function MenuFade({children, className}){
 
-    const props = useSpring({to: {opacity: 1}, from: {opacity:0},delay:50 });
+    const props = useSpring({to: {opacity: 1}, from: {opacity:0},delay:30 });
 
     return <animated.div className={className} style={props}>
         {children}
