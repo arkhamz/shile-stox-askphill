@@ -7,10 +7,6 @@ import slide6 from "./assets/slidepic-6.webp"
 import slide7 from "./assets/slidepic-7.webp"
 import {v4 as uuidv4} from "uuid";
 
-
-// export const slides = [slide1,slide2,slide3,slide4,slide3,slide4,slide5,slide6,slide7];
-
-
 export const slides = [
     {id:uuidv4(),src: slide1, caption: "Dagelijks"},
     {id:uuidv4(),src: slide2, caption: "Sport"},
@@ -22,7 +18,6 @@ export const slides = [
 ]
 
 // array of data objects for each accordion
-// Will use 25 products as a default for each sub-menu, 
 export const menuData = [
     {id:uuidv4(),caption:"Daily",submenu:["DAMES", "HEREN"]},
     {id:uuidv4(),caption: "Sports",submenu:["SPORT SOCKS","RUNNING SOCKS","HOCKEY SOCKS","SKI SOCKS","FLIGHT SOCKS", "HIKING SOCKS", "WORK SOCKS" ]},

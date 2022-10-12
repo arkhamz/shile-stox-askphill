@@ -18,14 +18,14 @@ export default function MenuAccordion({data}){
     }
 
     return (
-        <article className="accordion">
+        <article className="accordion-container">
             <header onClick={toggleOpen}>
                 <h2>{caption}</h2>
                 <button className="accordion-btn" onClick={toggleOpen}>{open ? <BsChevronUp/> : <BsChevronDown/>}</button>
             </header>
             {open && (
                 
-                <MenuFade className="submenu">
+                <MenuFade className={open? "submenu menu-open" : "submenu"}>
                     {submenu && submenu.map(function(i){
                         return <div className="submenu-content" key={uuidv4()}>
                             <a href="#">{i}</a>

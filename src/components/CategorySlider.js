@@ -17,15 +17,14 @@ export default function CategorySlider(){
             {slides.map(function(item,index){
 
                 if(index === 2){
-                    return <SwiperSlide  key={item.id}>
+                    return <SwiperSlide key={item.id}>
                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                     <SpringFade>
-                        <div  className="slidepic-container">
+                        <div className="slidepic-container">
                             <img className="slidepic" src={item.src} alt="load error" />
                             <h2 className="slide-caption">{item.caption}</h2>
                         </div>
                     </SpringFade>
-                 
                  </a>
                     </SwiperSlide> 
                 } else {
