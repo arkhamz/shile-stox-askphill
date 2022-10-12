@@ -2,7 +2,7 @@ import "./CategorySlider.css"
 import { slides } from "../utils"
 import {Swiper, SwiperSlide} from "swiper/react"
 import "swiper/css";
-import SpringFade from "./Fade";
+import {SpringFade} from "./Fade";
 
 
 export default function CategorySlider(){

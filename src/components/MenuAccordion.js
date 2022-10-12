@@ -2,6 +2,7 @@ import { useState } from "react"
 import {BsChevronDown,BsChevronUp} from "react-icons/bs"
 import {v4 as uuidv4} from "uuid";
 import "./MenuAccordion.css"
+import {MenuFade} from "./Fade";
 
 
 //Takes category data as prop and returns accordion
@@ -23,7 +24,8 @@ export default function MenuAccordion({data}){
                 <button className="accordion-btn" onClick={toggleOpen}>{open ? <BsChevronUp/> : <BsChevronDown/>}</button>
             </header>
             {open && (
-                <div className="submenu">
+                
+                <MenuFade className="submenu">
                     {submenu && submenu.map(function(i){
                         return <div className="submenu-content" key={uuidv4()}>
                             <a href="#">{i}</a>
@@ -31,7 +33,8 @@ export default function MenuAccordion({data}){
                         </div>
                     })}
 
-                </div>
+                </MenuFade>
+                
             )}
 
         </article>
