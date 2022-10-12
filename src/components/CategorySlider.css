@@ -18,13 +18,28 @@
 
 .slidepic-container{
     width: 25vh;
-    height: 25vh;
-    background-image: linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.4));
+    height: 35vh;
+    background-image: linear-gradient( rgba(18, 18, 18, 0), rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.4));
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2000;
 }
+
 
 .slidepic{
     object-fit: cover;
     height: 100%;
-    width: 25vh;
+    width: 100%;
+    z-index: -1000000;
+    position:relative;
     
 }
+
+/* .slide-overlay{
+    background-image: linear-gradient(rgba(18, 18, 18, 0), rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.4));
+    z-index: 10000;
+} */
+
+
+
+/* how best to do the image gradient? */
