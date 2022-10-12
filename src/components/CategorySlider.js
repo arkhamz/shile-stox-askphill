@@ -7,7 +7,7 @@ export default function CategorySlider(){
 
     return (
         <Swiper
-            spaceBetween={0}
+            spaceBetween={10}
             slidesPerView={2}
             style={{padding: "20px"}}
         >
@@ -22,13 +22,3 @@ export default function CategorySlider(){
         </Swiper>
     )
 }
-
-
-
-{/* <div className="slider">
-            {slides.map(function(item,index){
-                return <div key={index}  className="slidepic-container">
-                    <img className="slidepic" src={item} alt="load error" />
-                </div>
-            })}
-        </div> */}

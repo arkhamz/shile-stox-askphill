@@ -8,8 +8,8 @@
 }
 
 .slidepic-container{
-    width: 25vh;
-    height: 35vh;
+    width: 45vw;
+    min-height: 35vh;
     background-image: linear-gradient( rgba(18, 18, 18, 0), rgba(18, 18, 18, 0), rgba(18, 18, 18, 0.4));
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,8 +22,7 @@
     height: 100%;
     width: 100%;
     z-index: -1000000;
-    position:relative;
-    
+    position:absolute;
 }
 
 /* how best to do the image gradient? */
