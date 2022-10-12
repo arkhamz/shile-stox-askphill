@@ -25,4 +25,14 @@
     position:absolute;
 }
 
+.slide-caption{
+    position: absolute;
+    color: white;
+    top:85%;
+    left: 5%;
+    z-index: 10000;
+    font-family: MaisonNeueMedium, Arial, sans-serif;
+    font-weight: lighter;
+}
+
 /* how best to do the image gradient? */

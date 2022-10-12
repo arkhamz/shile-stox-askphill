@@ -14,7 +14,8 @@ export default function CategorySlider(){
             {slides.map(function(item,index){
                 return <SwiperSlide key={index}>
                    <div  className="slidepic-container">
-                    <img className="slidepic" src={item} alt="load error" />
+                    <img className="slidepic" src={item.src} alt="load error" />
+                    <h2 className="slide-caption">{item.caption}</h2>
                 </div>
                     </SwiperSlide>
             })}
