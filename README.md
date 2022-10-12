@@ -2,7 +2,7 @@
 # LIVE VERSION
 
 
-
+-- [LIVE DEMO](https://shile-stocks.netlify.app/)
 
 
 
