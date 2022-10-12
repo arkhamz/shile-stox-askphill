@@ -5,8 +5,8 @@ import "swiper/css";
 import {SpringFade} from "./Fade";
 
 
+// renders a slider of categories
 export default function CategorySlider(){
-    // testing
 
     return (
         <Swiper
@@ -15,6 +15,7 @@ export default function CategorySlider(){
             style={{padding: "20px"}}
         >
             {slides.map(function(item,index){
+
 
                 if(index === 2){
                     return <SwiperSlide key={item.id}>

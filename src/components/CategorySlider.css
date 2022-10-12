@@ -7,6 +7,8 @@
     padding-left: 10px;
 }
 
+/* Container with transparent linear gradient overlay
+will reveal absolutely positioned image below, with low z-index */
 .slidepic-container{
     width: 40vw;
     min-height: 60vh;
@@ -16,7 +18,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .slidepic{
     object-fit: cover;
@@ -35,5 +36,3 @@
     font-family: MaisonNeueMedium, Arial, sans-serif;
     font-weight: lighter;
 }
-
-/* how best to do the image gradient? */

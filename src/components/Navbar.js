@@ -20,8 +20,12 @@ export default function Navbar(){
         <nav>
             <ul className="nav-list">
                 <div className="nav-brand-toggle">
-                    { toggled ? <AiOutlineClose onClick={handleClick}/> : <AiOutlineMenu onClick={handleClick} />}
-                    <img src={logo} alt="logo unloaded" />
+                    <div className="nav-toggle">
+                        { toggled ? <AiOutlineClose onClick={handleClick}/> : <AiOutlineMenu onClick={handleClick} />}
+                    </div>
+                    <div className="nav-brand">
+                        <img src={logo} alt="logo unloaded" />
+                    </div>
                 </div>
                 <li className="nav-search">
                 <img src={search} alt="search unloaded" />

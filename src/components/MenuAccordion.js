@@ -4,9 +4,7 @@ import {v4 as uuidv4} from "uuid";
 import "./MenuAccordion.css"
 import {MenuFade} from "./Fade";
 
-
 //Takes category data as prop and returns accordion
-
 export default function MenuAccordion({data}){
 
     const {caption, submenu} = data;
@@ -32,9 +30,7 @@ export default function MenuAccordion({data}){
                             <span>25 products</span>
                         </div>
                     })}
-
                 </MenuFade>
-                
             )}
 
         </article>

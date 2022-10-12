@@ -1,48 +1,70 @@
 nav{
-    height: 70px;
+    height: 13vw;
     width: 100%;
     position:fixed;
     /* top: 2px; */
     background-color: white;
     z-index: 20000;
+    display:flex;
 }
 
+/* <ul> */
 .nav-list{
     height: 100%;
     width: 100%;
     display:flex;
     list-style-type: none;
     align-items: center;
-}
-
-.nav-list img{
-    height: 40px;
-    width: 40px;
-}
-
-.nav-brand-toggle{
-    margin-right: auto;
-    margin-left: 15px;
-    display:flex;
-    gap: 10px;
-}
-
-.nav-brand-toggle img{
-    width: 160px;
-    display:flex;
-    align-items: center;
     
 }
+ .nav-list img, .nav-search img{
+    height: 40px;
+    width: 40px;
+} 
 
-.nav-toggle{
-    width: 50px;
+/* <div> of toggle icon and logo */
+.nav-brand-toggle{
+    margin-right: auto;
+    height: 100%;
+    margin-left: 15px;
     display:flex;
-    justify-content: center;
-    gap: 10px;
     align-items: center;
+    gap: 10px;
+    width: 5vw;
+}
+
+.nav-brand{
+    width: 100%;
+}
+
+/* <logo image element> */
+.nav-brand img{
+  width: 30vw;
+    display:flex;
+    align-items: center;
+}
+
+/* <div> of svg toggle icon */
+.nav-toggle{
+    display:none;
 }
 
 .nav-brand-toggle svg{
     align-self: center;
     font-size: 30px;
+}
+
+
+@media screen and (max-width: 1020px) {
+
+    .nav-toggle{
+        display:flex;
+    }
+    
+}
+
+@media screen and (min-width: 1022px){
+    nav{
+        height: 7vw;
+    }
 }
