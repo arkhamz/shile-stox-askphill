@@ -7,10 +7,9 @@ export default function CategorySlider(){
 
     return (
         <Swiper
-            // spaceBetween={0}
+            spaceBetween={0}
             slidesPerView={2}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
+            style={{padding: "20px"}}
         >
             {slides.map(function(item,index){
                 return <SwiperSlide key={index}>
